@@ -1,2 +1,2 @@
 # QAP-2
-QAP 2 set of assignments
+QAP 2 of first semester.
