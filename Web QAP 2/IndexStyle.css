@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.mainbox {
+    width: 1000px;
+    border:  1px solid black;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+}
+
+h1,h3 {
+    color: black;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:link {
+    color: black;
+    background-color: white;
+}
+
+nav a:visited {
+    color: black;
+    background-color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+.highlight {
+    background-color:yellow;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.note {
+    background-color: lightsalmon;
+    padding: 1px;
+}
+
+.warning {
+    background-color: red;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.onesection {
+    width: 950px;
+    border: solid black;
+    background-color: rgba(216, 216, 209, 0.712);
+    padding: 15px;
+    margin:auto;
+    margin-top: 15px;
+    text-align: left;
+}
+
+a:link {
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    background-color: blue;
+    text-decoration: underline;
+}
+
+.imgbox{
+    width: 900px;
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+}
+
+.imgbox img{
+    border: black solid 1px;
+}
+
+/*New feature defined below*/
+.imagebox {
+    width: 100px; /* Set your desired width */
+    margin: auto; /* Center the image box */
+}
+
+.imagebox img {
+    transition: transform 0.5s ease; /* Smooth transition for scaling */
+    display: block; /* Ensure the image is treated as a block element */
+    width: 100%; /* Makes the image responsive */
+}
+
+.imagebox img:hover {
+    transform: scale(2.05); /* Scale up the image on hover */
+}
+
